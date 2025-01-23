@@ -106,22 +106,10 @@ export default function Navbar() {
           <div className="container mx-auto px-4 py-4">
             <div className="flex justify-between items-center mb-4">
               <Link href="/" className="flex items-center space-x-2">
-                <svg
-                  className="w-8 h-8 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
-                  />
-                </svg>
-                <span className="text-xl font-bold text-white">
-                  Organization
+                <Image src={Logo} alt="logo" className="w-8 h-8" />
+
+                <span className="block md:hidden lg:block text-xl font-bold text-white">
+                  Union of CSIT Students
                 </span>
               </Link>
               <Button
