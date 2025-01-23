@@ -47,7 +47,7 @@ export default function ContactForm() {
 
         data: JSON.stringify({
           access_key: "29239624-90d6-42a7-9f6c-a064e815f15e",
-          form_name: "Contact Form",
+          from_name: "Contact Form",
           subject: "New Contact Form Submission",
           name: target.name.value,
           email: target.email.value,
