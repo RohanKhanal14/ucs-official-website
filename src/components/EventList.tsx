@@ -5,7 +5,7 @@ const events = [
   {
     imageUrl:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-21%2021-55-50-k9hPFe8aPcru1AIBBbq24UfHTxSH2Z.png",
-    date: "Comming Soon",
+    date: "Coming Soon",
     time: "11:00 AM",
     title: "Workshop on Git and GitHub",
     subtitle: "ICT hall, Central Campus of Technology, Dharan - 14",
