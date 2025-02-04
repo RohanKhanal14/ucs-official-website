@@ -1,16 +1,15 @@
-"use client"
+"use client";
 import EventCard from "@/components/EventCard";
 import { motion } from "framer-motion";
 const events = [
   {
     imageUrl:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-01-21%2021-55-50-k9hPFe8aPcru1AIBBbq24UfHTxSH2Z.png",
-    date: "Coming Soon",
-    time: "11:00 AM",
-    title: "Workshop on Git and GitHub",
-    subtitle: "ICT hall, Central Campus of Technology, Dharan - 14",
-    location: "ICT hall, Central Campus of Technology, Dharan - 14",
-    mentor: "Rohan Khanal",
+      "https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/475865254_588462793986651_8633068943325702469_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wJ2oH11xQ8cQ7kNvgHcXlvS&_nc_oc=AdiTuDux7GI9S0H_4aEbsHvnoqM73t65ByprwUVtufa50wjeyCNdABoQnbdEMd5kcypjQGNBCo4K-BUV7k6NhPmx&_nc_zt=23&_nc_ht=scontent.fbir1-1.fna&_nc_gid=AwRpDYPkc3bkir66TujQiBS&oh=00_AYDloN6utfuinGKGbKpqqOabh4XPn6UDr6zOg4cguP3w5A&oe=67A8066C",
+    date: "10 Feb 2025",
+    time: "2:00 PM",
+    title: "Freshers Party 2081",
+    subtitle: "Let's welcome the new students with a bang",
+    location: "Dhulikel Samaj Party Palace, Dharan - 14",
     status: "upcoming" as const,
   },
   {
@@ -52,10 +51,7 @@ const events = [
 export default function EventList() {
   return (
     <>
-      <section
-        className="px-4 py-16 bg-gradient-to-b bg-[#020817]"
-        id="events"
-      >
+      <section className="px-4 py-16 bg-gradient-to-b bg-[#020817]" id="events">
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
