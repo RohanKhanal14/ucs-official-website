@@ -9,7 +9,7 @@ const events = [
     time: "2:00 PM",
     title: "Freshers Party 2081",
     subtitle: "Let's welcome the new students with a bang",
-    location: "Dhulikel Samaj Party Palace, Dharan - 14",
+    location: "Dhulikel Samaj Party Palace, Dharan - 1",
     status: "upcoming" as const,
   },
   {
